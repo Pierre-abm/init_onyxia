@@ -1,7 +1,5 @@
-GIT_REPO=fosses_talus_detection
-git clone --depth 1 https://gabriel.orabona:AHh14xclHvx7CyI-nZnHy286MQp1Ojcxawk.01.0z0n9h5ds@forge.inrae.fr/dynafor/dev-test/gabriel-orabona/${GIT_REPO}.git
+GIT_REPO=detection_cypres
+git clone --depth 1 git clone https://oauth2:ShSEnZ3w1vbK5vM8Z2gamG86MQp1Ojlhegk.01.0z0ihe40f@forge.inrae.fr:dynafor/dev-test/pierre-abraham/detection_cypres.git
 chown -R onyxia:users ${GIT_REPO}/
 
 pip install -r ${GIT_REPO}/requirements.txt
-
-mc cp -r s3/gabrielorabona/diffusion/haies_mnt_lidar .
